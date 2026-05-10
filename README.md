@@ -1,13 +1,19 @@
 # AndroidBasicNotesApp
+
 Semester Project: Design Document
+
 Stefano Buglione
+
 12/07/2024
+
 Prof. Heidi Gentry
+
 Purpose of the application: NotesApp+ is an application aimed at expanding the idea behind
 lab #4 where we were first introduced to Datastore, which was my favorite concept this semester.
 The idea of this app is not to make a better product than other note apps already in the market,
 but to lay a foundation to possibly add more features in future to make a better notes app.
 Features implemented:
+
 ◼ Full UI built using jetpack compose
 ◼ A ViewModel that handles configuration/orientation changes to not lose any data
 ◼ Notes independent from one another. i.e. each note created is its own entity, deleting that
@@ -18,6 +24,8 @@ notes
 configurations are persistent even after closing the app)
 ◼ Added feature where the camera can be used to take photos and places those photos in the
 notes (with permission handling)
+
+
 Challenges:
 ◼ Throughout the development of this application, there were many problems when testing
 the ViewModel for each version of the app, many updates to the ViewModel files were
